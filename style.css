@@ -3,4 +3,144 @@
   margin: 0.5;
 }
 
+body {
+  width: 360px;
+}
 
+/*HEADER*/
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #91a6f0;
+}
+
+@media screen and (width <= 1024px) {
+  #header {
+    background-color: red;
+  }
+}
+
+.avatar {
+  height: 500px;
+}
+
+.prénom-nom {
+  color: white;
+}
+
+/*MAIN*/
+
+.Biographie {
+  text-align: center;
+}
+
+.Compétences {
+  text-align: center;
+}
+
+.images-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.html {
+  width: 180px;
+}
+
+.css {
+  width: 180px;
+}
+
+.Études {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bloc1 {
+  width: 360px;
+}
+
+.bloc2 {
+  width: 360px;
+}
+
+.bloc3 {
+  width: 360px;
+}
+
+.bloc4 {
+  width: 360px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #91a6f0;
+  color: white;
+  display: flex;
+  width: 360px;
+  height: 200px;
+  flex-direction: column;
+}
+
+.contact {
+  height: 20px;
+  padding: 15px;
+  margin: 0%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo-mail {
+  width: 120px;
+  margin: 0%;
+}
+
+.logo-telephone {
+  width: 120px;
+  margin: 0%;
+}
+
+.logo-github {
+  width: 120px;
+  margin: 0%;
+}
+
+.ul1 {
+  padding: 0%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.li1 {
+  width: 120px;
+  padding: 0%;
+}
+
+.li2 {
+  width: 120px;
+  padding: 0%;
+}
+
+.li3 {
+  width: 120px;
+  padding: 0%;
+}
+
+/*RESPONSIVE
+
+@media screen and (max-width: 500px) {
+  #header {
+    background-color: red;
+  }
+} */
